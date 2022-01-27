@@ -1,0 +1,1157 @@
+.grid-container{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+    box-sizing: content-box;
+
+    @include four-k {
+    }
+
+    @include large-laptop {
+        
+    }
+
+    @include med-laptop {
+       
+    }
+
+
+    @include small-laptop {
+    }
+
+    @include large-tablet {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    @include med-tablet {
+   
+
+    }
+
+    @include small-tablet {
+    }
+
+    @include large-phone {
+
+
+    }
+
+    @include med-phone {
+
+    }
+
+    @include small-phone {
+
+    }
+
+
+
+    .grid-item{
+
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        @include four-k {
+        }
+
+        @include large-laptop {
+            
+        }
+
+        @include med-laptop {
+            height: 700px;
+
+        }
+
+
+        @include small-laptop {
+
+            height: 500px;
+        }
+
+        @include large-tablet {
+            
+            height: 900px;
+
+
+        }
+
+        @include med-tablet {
+       
+            height: 650px;
+
+
+        }
+
+        @include small-tablet {
+
+            height: 600px;
+
+        }
+
+
+        @include large-phone {
+  
+
+            height: 450px;
+
+        }
+
+        @include med-phone {
+
+        }
+
+        @include small-phone {
+
+        }
+
+
+        .learn-more-cont{
+
+            display: flex;
+            flex-direction: column;
+
+
+            @include four-k {
+            }
+    
+            @include large-laptop {
+                
+            }
+    
+            @include med-laptop {
+               
+            }
+    
+    
+            @include small-laptop {
+            }
+    
+            @include large-tablet {
+                
+            }
+    
+            @include med-tablet {
+           
+    
+            }
+    
+            @include small-tablet {
+            }
+    
+            @include large-phone {
+      
+    
+            }
+    
+            @include med-phone {
+    
+            }
+    
+            @include small-phone {
+    
+            }
+    
+
+            h1{
+
+                font-family: 'Fraunces', serif;
+                font-size: 70px;
+                font-weight: 800;
+                letter-spacing: 1px;
+                margin: 0;
+
+                @include four-k {
+                }
+        
+                @include large-laptop {
+                    
+                    font-size: 60px;
+
+                }
+        
+                @include med-laptop {
+                   
+                    font-size: 50px;
+
+                }
+        
+        
+                @include small-laptop {
+
+                    font-size: 30px;
+                }
+        
+                @include large-tablet {
+                    font-size: 70px;
+                }
+        
+                @include med-tablet {
+
+                    font-size: 55px;
+
+                }
+        
+                @include small-tablet {
+
+                    font-size: 48px;
+
+                }
+        
+                @include large-phone {
+          
+                    font-size: 30px;
+
+        
+                }
+        
+                @include med-phone {
+        
+                }
+        
+                @include small-phone {
+        
+                }
+        
+
+
+            }
+
+
+            p{
+
+                font-family: 'Barlow', sans-serif;
+                letter-spacing: 1px;
+                font-size: 30px;
+                margin-bottom: 40px;
+                font-weight: 400;
+                color: grey;
+
+
+                @include four-k {
+                }
+        
+                @include large-laptop {
+                    
+                    font-size: 25px;
+                }
+        
+                @include med-laptop {
+                   
+                    font-size: 24px;
+                }
+        
+        
+                @include small-laptop {
+
+                    font-size: 18px;
+                }
+        
+        
+                @include large-tablet {
+                    font-size: 25px;
+
+                }
+        
+                @include med-tablet {
+               
+                    font-size: 21px;
+
+        
+                }
+        
+                @include small-tablet {
+
+                    font-size: 20px;
+
+                }
+        
+                @include large-phone {
+          
+                    font-size: 15px;
+        
+                }
+        
+                @include med-phone {
+        
+                }
+        
+                @include small-phone {
+        
+                }
+        
+            }
+
+            .learn-more-btn-cont{
+
+
+
+                @include four-k {
+                }
+        
+                @include large-laptop {
+                    
+                }
+        
+                @include med-laptop {
+                   
+                }
+        
+        
+                @include small-laptop {
+                }
+        
+                @include large-tablet {
+                    
+                }
+        
+                @include med-tablet {
+               
+        
+                }
+        
+                @include small-tablet {
+                }
+        
+                @include large-phone {
+          
+        
+                }
+        
+                @include med-phone {
+        
+                }
+        
+                @include small-phone {
+        
+                }
+        
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Fraunces', serif;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    font-size: 25px;
+                    
+
+                @include four-k {
+                }
+        
+                @include large-laptop {
+                    
+                    font-size: 20px;
+                }
+        
+                @include med-laptop {
+                   
+                    
+                }
+        
+        
+                @include small-laptop {
+
+                    font-size: 15px;
+
+                }
+        
+                @include large-tablet {
+                    font-size: 20px;
+
+
+                }
+        
+                @include med-tablet {
+               
+                    font-size: 19px;
+
+        
+                }
+        
+                @include small-tablet {
+
+                    font-size: 18px;
+
+                }
+        
+                @include large-phone {
+          
+                    font-size: 15px;
+
+                }
+        
+                @include med-phone {
+        
+                }
+        
+                @include small-phone {
+        
+                }
+        
+                }
+
+
+                a:hover{
+
+
+
+
+                    @include four-k {
+                    }
+            
+                    @include large-laptop {
+                        
+                    }
+            
+                    @include med-laptop {
+                       
+                    }
+            
+            
+                    @include small-laptop {
+                    }
+            
+                    @include large-tablet {
+                        
+                    }
+            
+                    @include med-tablet {
+                   
+            
+                    }
+            
+                    @include small-tablet {
+                    }
+            
+                    @include large-phone {
+              
+            
+                    }
+            
+                    @include med-phone {
+            
+                    }
+            
+                    @include small-phone {
+            
+                    }
+            
+                }
+
+                .underline-yellow{
+       
+                    width: 190px;
+                    height: 15px;
+                    cursor: pointer;
+
+                    @include large-laptop {
+                        height: 15px;
+                        width: 155px;
+                    }
+            
+                    @include med-laptop {
+                       
+                        height: 15px;
+                        width: 160px;
+                    }
+            
+            
+                    @include small-laptop {
+
+                  
+                        
+                    }
+            
+                    @include large-tablet {
+                        height: 15px;
+                        width: 160px;
+                        top: -10px;   
+                    }
+            
+                    @include med-tablet {
+            
+            
+                    }
+            
+                    @include small-tablet {
+
+
+                    }
+
+                }
+
+                .underline-yellow:hover{
+                        display: block;
+                        border-radius: 30px;
+                        background-color: rgb(255, 216, 42);
+                        position: relative;
+                        top: -15px;
+                        right: 10px;
+                        opacity: 0.5;
+
+                        @include large-laptop {
+                            height: 15px;
+                            width: 155px;
+                            top: -11px;
+                        }
+                
+                        @include med-laptop {
+                           
+                            height: 15px;
+                            width: 160px;
+                        }
+                
+                
+                        @include small-laptop {
+
+                  
+                        }
+                
+                        @include large-tablet {
+                            height: 15px;
+                            width: 160px;
+                        }
+                
+                        @include med-tablet {
+                       
+                        
+                        }
+                
+                        @include small-tablet {
+
+                            top: -10px;
+
+                        }
+                }
+
+                .underline-red{
+                    width: 190px;
+                    height: 15px;
+                    cursor: pointer;
+
+                    @include large-laptop {
+                    }
+            
+                    @include med-laptop {
+                       
+                     
+                        height: 15px;
+                        width: 160px;
+                  
+
+                    }
+            
+            
+                    @include small-laptop {
+
+
+                    }
+            
+                    @include large-tablet {
+                        
+                        height: 15px;
+                    }
+            
+                    @include med-tablet {
+                   
+               
+            
+                    }
+            
+                    @include small-tablet {
+                    }
+     
+                }
+
+                .underline-red:hover{
+                    border-radius: 30px;
+                    background-color: red;
+                    position: relative;
+                    top: -15px;
+                    right: 10px;
+                    opacity: 0.5;
+
+                    @include large-laptop {
+                        
+
+                    }
+            
+                    @include med-laptop {
+                         
+                        height: 15px;
+                        width: 160px;
+                        top: -10px;
+                    }
+            
+            
+                    @include small-laptop {
+                    }
+            
+                    @include large-tablet {
+                        
+                
+                        top: -10px;
+
+                    }
+            
+                    @include med-tablet {
+                   
+   
+            
+                    }
+            
+                    @include small-tablet {
+
+                        top: -10px;
+                    }
+                }
+
+            }
+
+        }
+
+
+        .egg-bk-img{
+            background-image: url(../images/desktop/image-transform.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 1000px;
+    
+
+            @include four-k {
+            }
+    
+            @include large-laptop {
+                
+            }
+    
+            @include med-laptop {
+                height: 700px;
+
+            }
+    
+    
+            @include small-laptop {
+
+                height: 500px;
+            }
+    
+            @include large-tablet {
+                
+                height: 900px;
+
+
+            }
+    
+            @include med-tablet {
+                height: 650px;
+
+    
+            }
+    
+            @include small-tablet {
+
+                height: 600px;
+
+            }
+    
+            @include large-phone {
+
+                height: 450px;
+    
+            }
+    
+            @include med-phone {
+    
+            }
+    
+            @include small-phone {
+    
+            }
+        }
+
+        .pink-cup-bk-img{
+            background-image: url(../images/desktop/image-stand-out.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 1000px;
+    
+
+            @include four-k {
+            }
+    
+            @include large-laptop {
+                
+            }
+    
+            @include med-laptop {
+                height: 700px;
+ 
+            }
+    
+    
+            @include small-laptop {
+
+                height: 500px;
+            }
+    
+            @include large-tablet {
+                
+                height: 900px;
+
+
+            }
+    
+            @include med-tablet {
+                height: 650px;
+
+    
+            }
+    
+            @include small-tablet {
+
+                height: 600px;
+
+            }
+    
+            @include large-phone {
+      
+        height: 450px;
+            }
+    
+            @include med-phone {
+    
+            }
+    
+            @include small-phone {
+    
+            }
+
+        }
+
+        .bk-image-cherry{
+            background-image: url(../images/desktop/image-graphic-design.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 1000px;
+    
+
+            @include four-k {
+            }
+    
+            @include large-laptop {
+                
+            }
+    
+            @include med-laptop {
+                height: 700px;
+ 
+            }
+    
+    
+            @include small-laptop {
+                height: 500px;
+            }
+    
+            @include large-tablet {
+                
+                height: 900px;
+
+
+            }
+    
+            @include med-tablet {
+                height: 650px;
+
+    
+            }
+    
+            @include small-tablet {
+
+                height: 600px;
+
+            }
+    
+            @include large-phone {
+                height: 450px;
+    
+            }
+    
+            @include med-phone {
+    
+            }
+    
+            @include small-phone {
+    
+            }
+        }
+
+
+        .bk-image-orange{
+            background-image: url(../images/desktop/image-photography.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 1000px;
+
+            @include four-k {
+            }
+    
+            @include large-laptop {
+                
+            }
+    
+            @include med-laptop {
+               
+                height: 700px;
+
+            }
+    
+    
+            @include small-laptop {
+
+                height: 500px;
+            }
+    
+            @include large-tablet {
+                height: 900px;
+
+
+            }
+    
+            @include med-tablet {
+               
+                height: 650px;
+
+    
+            }
+    
+            @include small-tablet {
+
+                height: 600px;
+
+            }
+    
+            @include large-phone {
+      
+                height: 450px;
+            }
+    
+            @include med-phone {
+    
+            }
+    
+            @include small-phone {
+    
+            }
+        }
+
+        .text-cont{
+            position: absolute;
+            margin-top: 500px;
+            text-align: center;
+
+
+            @include four-k {
+            }
+    
+            @include large-laptop {
+                
+            }
+    
+            @include med-laptop {
+                margin-top: 300px;
+
+            }
+    
+    
+            @include small-laptop {
+            }
+    
+            @include large-tablet {
+                margin-top: 350px;
+
+            }
+    
+            @include med-tablet {
+           
+                margin-top: 330px;
+
+            }
+    
+            @include small-tablet {
+
+                margin-top: 230px;
+
+            }
+    
+            @include large-phone {
+      
+    
+            }
+    
+            @include med-phone {
+    
+            }
+    
+            @include small-phone {
+    
+            }
+    
+
+            h1{
+                font-family: 'Fraunces', serif;
+                font-size: 60px;
+                font-weight: 800;
+                letter-spacing: 1px;
+                margin: 0;
+
+
+                @include four-k {
+                }
+        
+                @include large-laptop {
+                    
+                }
+        
+                @include med-laptop {
+                   
+                }
+        
+        
+                @include small-laptop {
+
+                    font-size: 40px;
+                }
+        
+                @include large-tablet {
+                    
+                    font-size: 55px;
+
+                }
+        
+                @include med-tablet {
+               
+                    font-size: 50px;
+                }
+        
+                @include small-tablet {
+                }
+        
+                @include large-phone {
+                   
+                    font-size: 40px;
+
+        
+                }
+        
+                @include med-phone {
+        
+                }
+        
+                @include small-phone {
+        
+                }
+        
+            }
+
+            p{
+                font-family: 'Barlow', sans-serif;
+                letter-spacing: 1px;
+                font-size: 20px;
+                margin-bottom: 40px;
+                font-weight: 400;
+
+
+                @include four-k {
+                }
+        
+                @include large-laptop {
+                    
+                }
+        
+                @include med-laptop {
+                   
+                }
+        
+        
+                @include small-laptop {
+
+                    font-size: 15px;
+                }
+        
+                @include large-tablet {
+                    
+                    font-size: 25px;
+                }
+        
+                @include med-tablet {
+                   
+                    font-size: 20px;
+
+        
+                }
+        
+                @include small-tablet {
+                }
+        
+                @include large-phone {
+          
+                    font-size: 15px;
+
+                }
+        
+                @include med-phone {
+        
+                }
+        
+                @include small-phone {
+        
+                }
+        
+            }
+
+    
+        }
+
+    }
+
+    .grid-item-mobile-friendly{
+
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include four-k {
+        }
+
+        @include large-laptop {
+            
+        }
+
+        @include med-laptop {
+            height: 700px;
+
+        }
+
+
+        @include small-laptop {
+
+            height: 500px;
+        }
+
+        @include large-tablet {
+            
+            height: 900px;
+            grid-row-start: 1;
+
+
+        }
+
+        @include med-tablet {
+       
+            height: 650px;
+
+
+        }
+
+        @include small-tablet {
+
+            height: 600px;
+
+        }
+
+
+        @include large-phone {
+  
+
+            height: 450px;
+
+        }
+
+        @include med-phone {
+
+        }
+
+        @include small-phone {
+
+        }
+
+        .egg-bk-img{
+            background-image: url(../images/desktop/image-transform.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 1000px;
+    
+
+            @include four-k {
+            }
+    
+            @include large-laptop {
+                
+            }
+    
+            @include med-laptop {
+                height: 700px;
+
+            }
+    
+    
+            @include small-laptop {
+
+                height: 500px;
+            }
+    
+            @include large-tablet {
+                
+                height: 900px;
+
+
+            }
+    
+            @include med-tablet {
+                height: 650px;
+
+    
+            }
+    
+            @include small-tablet {
+
+                height: 600px;
+
+            }
+    
+            @include large-phone {
+
+                height: 450px;
+    
+            }
+    
+            @include med-phone {
+    
+            }
+    
+            @include small-phone {
+    
+            }
+        }
+    }
+
+
+}
+

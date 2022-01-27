@@ -1,0 +1,578 @@
+.test-cont{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+
+
+    @include four-k {
+    }
+
+    @include large-laptop {
+        
+    }
+
+    @include med-laptop {
+       
+    }
+
+
+    @include small-laptop {
+
+      
+    }
+
+    @include large-tablet {
+        
+     
+
+    }
+
+    @include med-tablet {
+   
+  
+    }
+
+    @include small-tablet {
+    }
+
+    @include large-phone {
+       
+
+
+
+    }
+
+    @include med-phone {
+
+    }
+
+    @include small-phone {
+
+    }
+
+    .test-heading{
+
+
+        h1{
+            text-align: center;
+            padding: 50px;
+            font-size: 30px;
+            font-weight: 400;
+            opacity: 0.6;
+            letter-spacing: 3px;
+
+            @include four-k {
+            }
+        
+            @include large-laptop {
+                
+            }
+        
+            @include med-laptop {
+               
+            }
+        
+        
+            @include small-laptop {
+                padding: 30px;
+              
+            }
+        
+            @include large-tablet {
+                
+                padding: 50px;
+
+        
+            }
+        
+            @include med-tablet {
+           
+          
+            }
+        
+            @include small-tablet {
+
+                padding: 20px;
+
+            }
+        
+            @include large-phone {
+               
+        
+        
+        
+            }
+        
+            @include med-phone {
+        
+            }
+        
+            @include small-phone {
+        
+            }
+
+        }
+    }
+
+    .user-cont{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 65px;
+        
+        @include four-k {
+        }
+    
+        @include large-laptop {
+            
+        }
+    
+        @include med-laptop {
+           
+        }
+    
+    
+        @include small-laptop {
+                      
+        }
+    
+        @include large-tablet {
+            
+            flex-direction: column;
+            padding: 20px;
+
+    
+        }
+    
+        @include med-tablet {
+       
+      
+        }
+    
+        @include small-tablet {
+
+            padding: 20px;
+
+        }
+    
+        @include large-phone {
+           
+    
+    
+    
+        }
+    
+        @include med-phone {
+    
+        }
+    
+        @include small-phone {
+    
+        }
+
+        .user{
+
+            justify-content: center;
+
+            @include four-k {
+            }
+        
+            @include large-laptop {
+                
+            }
+        
+            @include med-laptop {
+               
+            }
+        
+        
+            @include small-laptop {
+        
+              
+            }
+        
+            @include large-tablet {
+                
+             
+                padding: 30px;
+            }
+        
+            @include med-tablet {
+           
+          
+            }
+        
+            @include small-tablet {
+
+                padding:20px;
+            }
+        
+            @include large-phone {
+               
+        
+        
+        
+            }
+        
+            @include med-phone {
+        
+            }
+        
+            @include small-phone {
+        
+            }
+
+            .pic{
+
+                display: flex;
+                justify-content: center;
+
+                @include four-k {
+                }
+            
+                @include large-laptop {
+                    
+                }
+            
+                @include med-laptop {
+                   
+                }
+            
+            
+                @include small-laptop {
+            
+                  
+                }
+            
+                @include large-tablet {
+                    
+                 
+            
+                }
+            
+                @include med-tablet {
+               
+              
+                }
+            
+                @include small-tablet {
+                }
+            
+                @include large-phone {
+                   
+            
+            
+            
+                }
+            
+                @include med-phone {
+            
+                }
+            
+                @include small-phone {
+            
+                }
+
+                img{
+
+                    border-radius: 100%;
+                    height: 130px;
+
+                    @include four-k {
+                    }
+                
+                    @include large-laptop {
+                        
+                    }
+                
+                    @include med-laptop {
+                       
+                        height: 100px;
+                    }
+                
+                
+                    @include small-laptop {
+                
+                      
+                        height: 90px;
+
+                    }
+                
+                    @include large-tablet {
+                        
+                        height: 150px;
+
+                
+                    }
+                
+                    @include med-tablet {
+                   
+                  
+                    }
+                
+                    @include small-tablet {
+
+                        height: 100px;
+
+                    }
+                
+                    @include large-phone {
+                       
+                
+                
+                
+                    }
+                
+                    @include med-phone {
+                
+                    }
+                
+                    @include small-phone {
+                
+                    }
+                }
+            }
+
+            .review-cont{
+
+                justify-content: center;
+
+                @include four-k {
+                }
+            
+                @include large-laptop {
+                    
+                }
+            
+                @include med-laptop {
+                   
+                }
+            
+            
+                @include small-laptop {
+            
+                  
+                }
+            
+                @include large-tablet {
+                    
+                 
+            
+                }
+            
+                @include med-tablet {
+               
+              
+                }
+            
+                @include small-tablet {
+                }
+            
+                @include large-phone {
+                   
+            
+            
+            
+                }
+            
+                @include med-phone {
+            
+                }
+            
+                @include small-phone {
+            
+                }
+
+                p{
+
+                    text-align: center;
+                    letter-spacing: 1px;
+                    font-size: 20px;
+                    font-weight: 400;
+                    opacity: 0.7;
+                    font-family: 'Barlow', sans-serif;
+                    padding: 20px;
+
+                    @include four-k {
+                    }
+                
+                    @include large-laptop {
+                        
+                    }
+                
+                    @include med-laptop {
+                       
+                        font-size: 17px;
+                    }
+                
+                
+                    @include small-laptop {
+                
+                        font-size: 13px;
+
+                    }
+                
+                    @include large-tablet {
+                        
+                        font-size: 20px;
+
+                
+                    }
+                
+                    @include med-tablet {
+                   
+                  
+                    }
+                
+                    @include small-tablet {
+
+                        font-size: 15px;
+
+                    }
+                
+                    @include large-phone {
+                       
+                
+                
+                
+                    }
+                
+                    @include med-phone {
+                
+                    }
+                
+                    @include small-phone {
+                
+                    }
+                }
+            }
+
+            .name-cont{
+                h1{
+
+                    text-align: center;
+                    letter-spacing: 1px;
+                    font-size: 20px;
+                    font-weight: 800;
+
+                    @include four-k {
+                    }
+                
+                    @include large-laptop {
+                        
+                    }
+                
+                    @include med-laptop {
+                       
+                        font-size: 17px;
+                    }
+                
+                
+                    @include small-laptop {
+                
+                        font-size: 13px;
+
+                    }
+                
+                    @include large-tablet {
+                        
+                        font-size: 20px;
+
+                
+                    }
+                
+                    @include med-tablet {
+                   
+                  
+                    }
+                
+                    @include small-tablet {
+
+                        font-size: 15px;
+                    }
+                
+                    @include large-phone {
+                       
+                
+                
+                
+                    }
+                
+                    @include med-phone {
+                
+                    }
+                
+                    @include small-phone {
+                
+                    }
+                
+                }
+
+                p{
+
+                    text-align: center;
+                    letter-spacing: 1px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    opacity: 0.6;
+
+                    @include four-k {
+                    }
+                
+                    @include large-laptop {
+                        
+                    }
+                
+                    @include med-laptop {
+                       
+                        font-size: 14px;
+
+                    }
+                
+                
+                    @include small-laptop {
+                        font-size: 12px;
+
+                      
+                    }
+                
+                    @include large-tablet {
+                        
+                        font-size: 15px;
+
+                
+                    }
+                
+                    @include med-tablet {
+                   
+                  
+                    }
+                
+                    @include small-tablet {
+
+                        font-size: 12px;
+
+                    }
+                
+                    @include large-phone {
+                       
+                
+                
+                
+                    }
+                
+                    @include med-phone {
+                
+                    }
+                
+                    @include small-phone {
+                
+                    }
+                }
+            }
+
+        }
+    }
+}
