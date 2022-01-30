@@ -99,6 +99,59 @@
                 display: flex;
                 flex-direction: column;
 
+
+                h1{
+
+                    font-size: 60px;
+
+                    @include large-laptop {
+
+                        font-size: 55px;
+                    }
+            
+                    @include med-laptop {  
+                        
+                        font-size: 50px;
+                    }
+                          
+                    @include small-laptop {
+
+                        font-size: 40px;
+                    }
+            
+             
+            
+            
+                    @include large-tablet {
+
+                        font-size: 60px;
+                    }
+            
+                    @include med-tablet {   
+                        
+                        font-size: 45px;
+                    }
+            
+                    @include small-tablet {
+
+                        font-size: 35px;
+                    }
+            
+                    @include large-phone {                  
+                                    
+                    }
+            
+                    @include med-phone {
+            
+                    }
+            
+                    @include small-phone {
+            
+                    }               
+                    
+                }
+
+
                     p{
 
                     font-family: 'Barlow', sans-serif;
