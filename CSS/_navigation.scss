@@ -1,122 +1,94 @@
+//NAVIGATION CONTAINER
 .nav-cont{
 
-background-color: hsl(168, 51%, 77%);
-box-sizing: content-box;
+    background-color: hsl(168, 51%, 77%);
+    box-sizing: content-box;
 
+    //NAVIGATION HEADER CONTAINER
+    .nav-header{
 
-.nav-header{
+        h1{
 
-            h1{
-
-             color: hsl(168, 34%, 41%);
-             font-size: 45px;
-             margin: 0;
-             text-align: center;
-             padding: 40px;
-             font-family: 'Fraunces', serif;
-
-             @include large-tablet {
-        
-                font-size: 40px;
-
-            }
-        
-            @include med-tablet {
-           
-                margin: 0px 50px;
-
-            }
-        
-            @include small-tablet {
-                margin: 0px 40px;
-
-            }
-
-            }
-        }
-
-
-        .nav-ul{
-
-            display: flex;
-            justify-content: center;
-    
-            .nav-list{
-
-                list-style: none;
-                margin: 0px 100px;
+            color: hsl(168, 34%, 41%);
+            font-size: 45px;
+            margin: 0;
+            text-align: center;
+            padding: 40px;
+            font-family: 'Fraunces', serif;
 
                 @include large-tablet {
-        
-                    margin: 0px 80px;
-
+                font-size: 40px;
                 }
-            
-                @include med-tablet {
-               
-                    margin: 0px 60px;
 
+                @include med-tablet {    
+                margin: 0px 50px;
                 }
-            
+
                 @include small-tablet {
-                    margin: 0px 40px;
-
+                margin: 0px 40px;
                 }
-            
-
-                a{
-                    text-decoration: none;
-                    font-family: 'Barlow', sans-serif;
-                    letter-spacing: 2px;
-                    color: hsl(168, 34%, 41%);
-                    font-weight: 700;
-                    
-                }
-            }
 
         }
+    }
 
-        .nav-socials-cont{
-     
-            display: flex;
-            justify-content: center;
-            padding: 60px;
+                    //NAVIGATION UN-ORDERED LIST
+                    .nav-ul{
+                    display: flex;
+                    justify-content: center;
 
+                        //NAVIGATION LIST ITEM
+                        .nav-list{
+                        list-style: none;
+                        margin: 0px 100px;
 
-            .nav-socials{
+                            @include large-tablet{
+                            margin: 0px 80px;
+                            }
 
-            
+                            @include med-tablet{
+                            margin: 0px 60px;
+                            }
 
-                a{
+                            @include small-tablet {
+                            margin: 0px 40px;
+                            }
 
+                                //NAVIGATION LINK
+                                a{
+                                text-decoration: none;
+                                font-family: 'Barlow', sans-serif;
+                                letter-spacing: 2px;
+                                color: hsl(168, 34%, 41%);
+                                font-weight: 700;
+                                }
+                            }
 
-                    margin: 0px 40px;
-
-                    @include large-tablet {
-        
-                        margin: 0px 30px;
-    
                     }
-                
-                    @include med-tablet {
-                   
-                        margin: 0px 20px;
-    
-                    }
-                
-                    @include small-tablet {
-                        margin: 0px 15px;
-    
-                    }
-                     img{
-           
+                                    //NAVIGATION SOCIAL MEDIA CONTAINER
+                                    .nav-socials-cont{
+                                    display: flex;
+                                    justify-content: center;
+                                    padding: 60px;
 
-                     }
+                                        .nav-socials{
 
-        }
-       
-    } 
-  }
+                                            a{
+                                            margin: 0px 40px;
 
+                                                @include large-tablet {
+                                                margin: 0px 30px;
+                                                }
+
+                                                @include med-tablet {
+                                                margin: 0px 20px;
+                                                }
+
+                                                @include small-tablet {
+                                                margin: 0px 15px;
+                                                }
+
+                                            }
+                                        } 
+                                    }
 }
 
