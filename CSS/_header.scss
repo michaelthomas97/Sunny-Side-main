@@ -1,0 +1,377 @@
+
+//BACKGROUND IMAGE CONTAINER
+.header-cont {
+position: relative;
+border-bottom: 1px solid #E2E8F0;
+
+    //BACKGROUND IMAGE (LARGE ORANGE)
+    .background-img {
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+
+        @include four-k {
+            height: 1300px;
+        }
+
+        @include small-tablet {
+            height: 1000px;
+        }
+
+        @include large-phone {
+            background-image: url(../images/mobile/image-header.jpg);
+            height: 1000px;
+        }
+
+        @include med-phone {
+        height: 700px;
+        }
+    }
+
+            //NAVIGATION BAR CONTAINER
+            .navbar{
+
+            position: absolute;
+            display: flex;
+            top: 10px;
+            align-items: center;
+            width: 100%;
+
+                @include large-tablet {
+                top: 23px;
+                }
+
+                    //COMPANY LOGO
+                    .logo{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 30px;
+
+                        img{
+                        height: 60px;
+                            }
+                        }
+
+                            //NAVIGATION UN ORDERED LIST
+                            .nav-menu{
+                            display: flex;
+                            margin-left: auto;
+                            padding: 20px;
+                            align-items: center;
+
+                                @include large-tablet{
+                                display: none;
+                                }
+
+                            }
+
+                                //NAVIGATION LIST ITEM
+                                .nav-item{
+                                list-style: none;
+                                margin: 0px 100px;
+
+                                    @include med-laptop {
+                                    margin: 0px 60px;
+                                    }
+
+                                    @include large-tablet {
+                                    padding: 30px;
+                                    }
+
+                                    //NAVIGATION ANCHOR
+                                    .nav-link{
+                                    text-decoration: none;
+                                    font-size: 23px;
+                                    color: white;
+                                    transition: ease 0.7s;
+                                    font-family: 'Barlow', sans-serif;
+
+                                        @include large-tablet{
+                                        color: gray;
+                                        font-weight: 700;
+                                        font-family: 'Fraunces', serif;
+                                        }
+
+                                    }
+
+
+                                            //NAVIGATION ANCHOR HOVER
+                                            .nav-link:hover{
+
+                                            @include large-tablet {
+                                            color: black;
+                                            }
+
+                                            }
+
+
+                                }
+
+            }
+
+
+//NAVIGATION MOBILE FRIENDLY UL
+
+                                                    .nav-menu.active{       
+
+                                                        @include large-tablet {
+                                                        display: block;
+                                                        position: fixed;
+                                                        z-index: 1;
+                                                        left: -100%;
+                                                        gap: 0;
+                                                        flex-direction: column;
+                                                        text-align: center;
+                                                        transition: 0.3s;
+                                                        justify-content: center;
+                                                        left: 50%;
+                                                        top: 40%;
+                                                        transform: translate(-50%, -50%);
+                                                        background-color: white;
+                                                        border-radius: 20px;
+                                                        padding: 100px 300px;
+                                                        }
+
+                                                            @include med-tablet{
+                                                            padding: 100px 200px;
+                                                            }
+
+                                                            @include small-tablet{
+                                                            padding: 80px 150px;
+                                                            }
+
+                                                            @include large-phone {
+                                                            padding: 40px 100px;
+                                                            }
+                                                    }
+
+                                                                //NAVIGATION CONTACT BUTTON
+                                                                .contact{
+                                                                display: flex;
+                                                                align-items: center;
+                                                                cursor: pointer;
+
+                                                                    @include large-tablet{
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    text-align: center;
+                                                                    margin: 0;
+                                                                    padding: 20px;
+                                                                    }
+
+                                                                        //NAVIGATION CONTACT ANCHOR
+                                                                        a{
+                                                                        text-decoration: none;
+                                                                        font-size: 23px;
+                                                                        color: black;
+                                                                        background-color: white;
+                                                                        border-radius: 30px;
+                                                                        font-family: 'Barlow', sans-serif;
+                                                                        padding: 10px 30px;
+
+                                                                            @include med-laptop {
+                                                                            font-size: 19px;
+                                                                            color: gray;
+                                                                            }
+
+                                                                            @include large-tablet {
+                                                                            font-family: 'Fraunces', serif;
+                                                                            font-weight: 700;
+                                                                            font-size: 23px;
+                                                                            }
+
+
+                                                                        }
+
+
+
+                                                                            //NAVIGATION CONTACT ANCHOR HOVER
+                                                                            a:hover{
+                                                                            background: rgba(255, 255, 255, 0.3);
+                                                                            color: white;
+
+
+                                                                                @include large-tablet {
+                                                                                background: rgb(255, 208, 0);
+                                                                                border-radius: 30px;
+                                                                                color: black;
+                                                                                font-family: 'Fraunces', serif;
+                                                                                font-weight: 700;
+                                                                                }
+
+                                                                            }
+
+                                                                }
+                                                            
+                                                            
+}
+
+
+//NAVIGATION MOBILE FRIENDLY HAMBURGER ICON
+.hamburger{
+
+    display: none;
+    cursor: pointer;
+
+        @include large-tablet{
+        display: block;
+        margin-left: auto;
+        padding: 30px;
+        }
+
+        //NAVIGATION MOBILE FRIENDLY HAMBURGER BARS
+            .bar{
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            background-color: white;
+            }
+}
+
+//NAVIGATION MOBILE FRIENDLY ACTIVE HAMBURGER CROSS (WHEN CLICKED ON), REMOVED 
+//MIDDLE LINE AND CROSS THE TOP AND BOTTOM LINES
+.hamburger.active  {
+
+    .bar:nth-child(2){
+
+        @include large-tablet{
+        opacity: 0;
+        }
+    }
+
+        .bar:nth-child(1){
+
+            @include large-tablet{
+            transform: translateY(8px) rotate(45deg);
+            }
+        }
+
+            .bar:nth-child(3){
+
+                @include large-tablet{
+                transform: translateY(-8px) rotate(-45deg);
+                }
+            }
+
+}
+
+
+
+.header-heading {
+position: absolute;
+top: 250px;
+width: 100%;
+display: flex;
+justify-content: center;
+
+
+        @include small-tablet{
+        top: 150px;
+        }
+
+        @include large-phone{
+        top: 270px;
+        }
+
+        @include med-phone {
+        top: 170px;
+        }
+
+            h1 {
+            color: white;
+            text-align: center;
+            font-size: 90px;
+
+
+                @include med-tablet{
+                font-size: 85px;
+                }
+
+                @include small-tablet{
+                font-size: 80px;
+                }
+
+                @include large-phone{
+                font-size: 70px;
+                }
+
+                @include med-phone{
+                font-size: 55px;
+                }
+
+            }
+
+                .arrow {
+                position: absolute;
+                margin-top: 220px;
+
+                    @include four-k {
+                    margin-top: 235px;
+                    }
+
+                    @include large-laptop {
+                    margin-top: 235px;
+                    }
+
+                    @include med-laptop {
+                    margin-top: 230px;
+                    }
+
+                    @include small-laptop {
+                    margin-top: 235px;
+                    }
+
+                    @include large-tablet {
+                    margin-top: 280px;
+                    }
+
+                    @include med-tablet {
+                    margin-top: 353px;
+                    }
+
+                    @include small-tablet {
+                    margin-top: 290px;
+                    }
+
+                    @include large-phone {
+                    margin-top: 250px;
+                    }
+
+                    @include med-phone {
+                    margin-top: 210px;
+                    }
+
+                        img {
+                        height: 400px;
+
+                            @include large-tablet{
+                            height: 350px;
+                            }
+
+                            @include med-tablet{
+                            height: 280px;        
+                            }
+
+                            @include small-tablet{
+
+                            height: 240px;
+                            }
+
+                            @include large-phone{
+                            height: 230px;
+                            }
+
+                            @include med-phone{
+                            height: 150px;
+                            }
+
+                        }
+                }
+}
+

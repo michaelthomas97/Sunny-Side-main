@@ -1,0 +1,11 @@
+//MILK BOTTLE, ORANGE, CONE AND ICE CUBE IMAGE CONTAINER
+.photo-row{
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        @include large-tablet{
+            grid-template-columns: 1fr 1fr;
+        }
+}
+

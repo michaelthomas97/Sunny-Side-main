@@ -1,0 +1,177 @@
+//TESTIMONIALS CONTAINER
+.test-cont{
+display: flex;
+flex-direction: column;
+box-sizing: content-box;
+
+        //TESTIMONIALS MAIN HEADER
+        .test-heading{
+
+            h1{
+            text-align: center;
+            padding: 50px;
+            font-size: 30px;
+            font-weight: 400;
+            opacity: 0.6;
+            letter-spacing: 3px;
+
+                @include small-laptop {
+                padding: 30px;          
+                }
+
+                @include large-tablet { 
+                padding: 50px;        
+                }
+
+                @include small-tablet {
+                padding: 20px;
+                }            
+            }
+        }
+
+        //MAIN USER CONTAINER
+        .user-cont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 65px;
+
+            @include large-tablet {        
+            flex-direction: column;
+            padding: 20px;
+            }
+
+            @include small-tablet {
+            padding: 20px;
+            }
+
+                .user{
+
+                justify-content: center;
+
+                @include large-tablet {
+                padding: 30px;
+                }
+
+                @include small-tablet {
+                padding:20px;
+                }
+
+                    //TESTIMONIAL PICTURE CONTAINER
+                    .pic{
+                    display: flex;
+                    justify-content: center;
+
+                        img{
+                        border-radius: 100%;
+                        height: 130px;
+
+                            @include med-laptop {   
+                            height: 100px;
+                            }
+
+
+                            @include small-laptop {
+                            height: 90px;
+                            }
+
+                            @include large-tablet {  
+                            height: 150px;
+                            }
+
+                            @include small-tablet {
+                            height: 100px;
+                            }
+                        }
+                    }
+
+                    //TESTIMONIAL REVIEW CONTAINER
+                    .review-cont{
+                    justify-content: center;
+
+                        p{
+
+                        text-align: center;
+                        letter-spacing: 1px;
+                        font-size: 20px;
+                        font-weight: 400;
+                        opacity: 0.7;
+                        font-family: 'Barlow', sans-serif;
+                        padding: 20px;
+
+                            @include med-laptop{
+                            font-size: 17px;
+                            }
+
+
+                            @include small-laptop{
+                            font-size: 13px;
+
+                            }
+
+                            @include large-tablet{
+                            font-size: 20px;
+                            }
+
+                            @include small-tablet{
+                            font-size: 15px;
+                            }
+                        }
+                    }
+
+                            //TESTIMONIAL NAME CONTAINER
+                            .name-cont{
+                                
+                                h1{
+                                text-align: center;
+                                letter-spacing: 1px;
+                                font-size: 20px;
+                                font-weight: 800;
+
+                                    @include med-laptop{                      
+                                    font-size: 17px;
+                                    }
+
+                                    @include small-laptop{
+                                    font-size: 13px;
+                                    }
+
+                                    @include large-tablet{
+                                    font-size: 20px;
+                                    }
+
+                                    @include small-tablet{
+                                    font-size: 15px;
+                                    }
+
+                                }
+
+                                    p{
+                                    text-align: center;
+                                    letter-spacing: 1px;
+                                    font-size: 15px;
+                                    font-weight: 300;
+                                    opacity: 0.6;
+
+                                        @include med-laptop{   
+                                        font-size: 14px;
+                                        }
+
+
+                                        @include small-laptop{
+                                        font-size: 12px;
+                                        }
+
+                                        @include large-tablet {               
+                                        font-size: 15px; 
+                                        }
+
+                                        @include small-tablet{
+                                        font-size: 12px;
+                                        }
+
+                                    }
+                        }
+                }
+        }
+}
